@@ -1,0 +1,77 @@
+<resources>
+
+    <string name="app_name">DoctorApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="diarrhea_disease">Signs and symptoms associated with diarrhea may include:
+
+Loose, watery stools
+Abdominal cramps
+Abdominal pain
+Fever
+Blood in the stool
+Bloating
+Nausea
+Urgent need to have a bowel movement
+When to see a doctor
+
+If you\'re an adult, see your doctor if:
+
+Your diarrhea persists beyond two days
+You become dehydrated
+You have severe abdominal or rectal pain
+You have bloody or black stools
+You have a fever above 102 F (39 C)
+In children, particularly young children, diarrhea can quickly lead to dehydration. Call your doctor if your child\'s diarrhea doesn\'t improve within 24 hours or if your baby:
+
+Becomes dehydrated
+Has a fever above 102 F (39 C)
+Has bloody or black stools
+Causes
+
+A number of diseases and conditions can cause diarrhea, including
+
+Viruses. Viruses that can cause diarrhea include Norwalk virus, cytomegalovirus and viral hepatitis. Rotavirus is a common cause of acute childhood diarrhea.
+Bacteria and parasites. Contaminated food or water can transmit bacteria and parasites to your body. Parasites such as Giardia lamblia and cryptosporidium can cause diarrhea.
+
+Common bacterial causes of diarrhea include campylobacter, salmonella, shigella and Escherichia coli. When traveling in developing countries, diarrhea caused by bacteria and parasites is often called traveler\'s diarrhea. Clostridium difficile infection can occur, especially after a course of antibiotics.
+
+Medications. Many medications, such as antibiotics, can cause diarrhea. Antibiotics destroy both good and bad bacteria, which can disturb the natural balance of bacteria in your intestines. Other drugs that cause diarrhea are cancer drugs and antacids with magnesium.
+Lactose intolerance. Lactose is a sugar found in milk and other dairy products. People who have difficulty digesting lactose have diarrhea after eating dairy products.
+
+Your body makes an enzyme that helps digest lactose, but for most people, the levels of this enzyme drop off rapidly after childhood. This causes an increased risk of lactose intolerance as you age.
+
+Fructose. Fructose, a sugar found naturally in fruits and honey and added as a sweetener to some beverages, can cause diarrhea in people who have trouble digesting it.
+Artificial sweeteners. Sorbitol and mannitol, artificial sweeteners found in chewing gum and other sugar-free products, can cause diarrhea in some otherwise healthy people.
+Surgery. Some people have diarrhea after undergoing abdominal surgery or gallbladder removal surgery.
+Other digestive disorders. Chronic diarrhea has a number of other causes, such as Crohn\'s disease, ulcerative colitis, celiac disease, microscopic colitis and irritable bowel syndrome.</string>
+<string name="thrombosis">Deep vein thrombosis (DVT) occurs when a blood clot (thrombus) forms in one or more of the deep veins in your body, usually in your legs. Deep vein thrombosis can cause leg pain or swelling, but may occur without any symptoms.
+
+Deep vein thrombosis can develop if you have certain medical conditions that affect how your blood clots. Deep vein thrombosis can also happen if you don\'t move for a long time, such as after surgery, following an accident, or when you are confined to a hospital or nursing home bed.
+
+Deep vein thrombosis is a serious condition because blood clots in your veins can break loose, travel through your bloodstream and lodge in your lungs, blocking blood flow (pulmonary embolism).</string>
+
+    <string name="thrombophlebitis">Thrombophlebitis (throm-boe-fluh-BY-tis) is an inflammatory process that causes a blood clot to form and block one or more veins, usually in your legs. The affected vein might be near the surface of your skin (superficial thrombophlebitis) or deep within a muscle (deep vein thrombosis, or DVT). Causes include trauma, surgery or prolonged inactivity.
+
+DVT increases your risk of serious health problems. It\'s usually treated with blood-thinning medications. Superficial thrombophlebitis is sometimes treated with blood-thinning medications, too.</string>
+
+    <string name="tachycardia">Tachycardia is a common type of heart rhythm disorder (arrhythmia) in which the heart beats faster than normal while at rest.
+
+It\'s normal for your heart rate to rise during exercise or as a physiological response to stress, trauma or illness (sinus tachycardia). But in tachycardia (tak-ih-KAHR-dee-uh), the heart beats faster than normal in the upper or lower chambers of the heart or both while at rest.
+
+Your heart rate is controlled by electrical signals sent across heart tissues. Tachycardia occurs when an abnormality in the heart produces rapid electrical signals that quicken the heart rate, which is normally about 60 to 100 beats a minute at rest.
+
+In some cases, tachycardia may cause no symptoms or complications. But if left untreated, tachycardia can disrupt normal heart function and lead to serious complications, including:
+
+Heart failure
+Stroke
+Sudden cardiac arrest or death
+Treatments, such as drugs, medical procedures or surgery, may help control a rapid heartbeat or manage other conditions contributing to tachycardia.</string>
+
+
+    <string name="pancreatic">Pancreatic cysts are saclike pockets of fluid on or in your pancreas, a large organ behind the stomach that produces hormones and enzymes that help digest food.
+
+Most pancreatic cysts aren\'t cancerous, and many don\'t cause symptoms. They\'re typically found during imaging testing for another problem. Some are actually noncancerous (benign) pockets of fluids lined with scar or inflammatory tissue, not the type of cells found in true cysts (pseudocysts).
+
+But some pancreatic cysts can be or can become cancerous. Your doctor might take a sample of the pancreatic cyst fluid to determine if cancer cells are present. Or your doctor might recommend monitoring a cyst over time for changes that indicate cancer.</string>
+</resources>

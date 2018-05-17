@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/apBarLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="16dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:translationZ="16dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="false"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:titleEnabled="false">
+
+            <HorizontalScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="?attr/actionBarSize"
+                android:background="@android:color/white"
+                android:elevation="4dp"
+                android:fadeScrollbars="false"
+                android:scrollbars="none"
+                android:translationZ="4dp"
+                app:layout_collapseMode="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="2dp"
+                    android:paddingStart="2dp"
+                    android:paddingTop="8sp">
+
+                    <Button
+                        android:id="@+id/btnAll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="4dp"
+                        android:background="@drawable/chart_button"
+                        android:paddingEnd="3dp"
+                        android:paddingStart="3dp"
+                        android:text="All"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/btnGeneral"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="4dp"
+                        android:background="@drawable/chart_button"
+                        android:paddingEnd="3dp"
+                        android:paddingStart="3dp"
+                        android:text="General"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/btnPsychology"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="4dp"
+                        android:background="@drawable/chart_button"
+                        android:paddingEnd="3dp"
+                        android:paddingStart="3dp"
+                        android:text="Psychology"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/btnOphthalmology"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="4dp"
+                        android:background="@drawable/chart_button"
+                        android:paddingEnd="3dp"
+                        android:paddingStart="3dp"
+                        android:text="Ophthalmology"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/btnCardiology"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="4dp"
+                        android:background="@drawable/chart_button"
+                        android:paddingEnd="3dp"
+                        android:paddingStart="3dp"
+                        android:text="Cardiology"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:elevation="16dp"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:clickable="true"
+        android:src="@mipmap/ic_launcher_share"
+        app:backgroundTint="@color/colorPrimary"
+        app:elevation="2dp"
+        app:fabSize="normal"
+        app:pressedTranslationZ="12dp"
+        app:rippleColor="@color/transparentPrimary" />
+
+    <LinearLayout
+        android:id="@+id/sharePanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/back"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_anchor="@id/rec"
+        app:layout_anchorGravity="bottom">
+
+        <LinearLayout
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="share to: " />
+
+            <Spinner
+                android:id="@+id/shareTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <!--android:entries="@array/chart_docs"-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/chart_button"
+                android:text="share"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/shareCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="80dp"
+                android:background="@drawable/chart_button"
+                android:text="cancel"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

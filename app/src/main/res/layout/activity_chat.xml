@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/apBarLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_height="50dp"
+                    android:layout_width="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/prof_pic"
+                    android:id="@+id/doctorProfileImage"/>
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nameStatus"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/doctorProfileImage"
+                    android:layout_marginEnd="8dp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/back"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <ListView
+            android:id="@+id/chatListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_marginBottom="44dp"
+            android:divider="@color/back"
+            android:dividerHeight="8dp"
+            android:stackFromBottom="true" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/send_button"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="4dp"
+            android:layout_toStartOf="@+id/send"
+            android:background="@drawable/edit_text"
+            android:padding="3dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignEnd="@+id/editText"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/clip" />
+
+    </RelativeLayout>
+</LinearLayout>

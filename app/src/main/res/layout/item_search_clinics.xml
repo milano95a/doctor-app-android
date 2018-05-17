@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:elevation="6dp"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:id="@+id/relative">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/clinicImage"/>
+
+    <TextView
+        android:layout_marginStart="16dp"
+        android:id="@+id/nameHint"
+        android:layout_toEndOf="@+id/clinicImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="13sp"
+        android:textColor="@android:color/darker_gray"/>
+    <TextView
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/nameHint"
+        android:layout_toEndOf="@+id/clinicImage"
+        android:id="@+id/clinicName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@android:color/black"
+        android:text="Name of CLinic"/>
+
+    <TextView
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/clinicName"
+        android:id="@+id/locationHint"
+        android:layout_toEndOf="@+id/clinicImage"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="13sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/locationHint"
+        android:layout_toEndOf="@+id/clinicImage"
+        android:id="@+id/clinicLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@android:color/black"
+        android:text="Location" />
+
+</RelativeLayout>

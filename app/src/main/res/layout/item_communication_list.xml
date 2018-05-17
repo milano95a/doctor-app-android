@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:clickable="true"
+    android:background="@drawable/comm_list_item_back"
+    android:id="@+id/rel">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of doctor"
+        android:textColor="@android:color/black"
+        android:id="@+id/nameOfDoc"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameOfDoc"
+        android:layout_marginTop="12dp"
+        android:textSize="13sp"
+        android:text="specialization"
+        android:id="@+id/spec"/>
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/onlineIndicator"
+        />
+
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/spec"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+</RelativeLayout>

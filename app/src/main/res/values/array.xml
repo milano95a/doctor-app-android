@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language">
+        <item>English</item>
+        <item>O\'zbek</item>
+        <item>Русский</item>
+    </string-array>
+
+    <string-array name="chart_docs">
+        <item>Anvar Usmanov, ophthalmologist</item>
+        <item>Sabina Shukurova, otolaryngologist</item>
+        <item>Said Sattorov, dentist</item>
+        <item>Madina Alieva, cardiologist</item>
+        <item>Andrey Pak, cardiologist</item>
+        <item>Zebo Maksudova, gastrologist</item>
+        <item>Ekaterina Volkova, dermotologist</item>
+        <item>Nuriddin Azimov, general medicine</item>
+        <item>Sunnat Isaev, urologist</item>
+        <item>Shakhnoza Talipova, gynaecologist</item>
+        <item>Sevara Usmanova, neonatologist</item>
+        <item>Umar Soatov, neurologist</item>
+        <item>Sattor Isakov, general</item>
+        <item>Ismat Mahmudov, psychologist</item>
+        <item>Natalya Sabyanina, ophthalmologist</item>
+        <item>Ozoda Abdullaeva, cardiologist</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+</resources>
